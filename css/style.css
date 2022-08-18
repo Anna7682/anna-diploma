@@ -33,7 +33,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   max-width: 1200px;
-  width: 84%;
+  width: 85%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -76,17 +76,27 @@ a {
 
 h1 {
   font-size: 45px;
-  line-height: 1.7;
+  line-height: 75px;
 }
 
 h2 {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 29px;
 }
 
 h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 29px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .container {
@@ -459,7 +469,7 @@ display: flex;
 
 .trends-content-text {
   font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
@@ -645,7 +655,7 @@ display: flex;
 
 .blocks {
   display: flex;
-  padding-bottom: 61px;
+  margin-bottom: 61px;
 }
 
 .blocks:last-child {
@@ -679,7 +689,7 @@ img {
 }
 
 .blocks-text {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .blocks-content-title {
@@ -700,7 +710,7 @@ img {
 }
 
 .blocks-text-info {
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .date {
