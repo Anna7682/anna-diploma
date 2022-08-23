@@ -7,18 +7,16 @@
 }
 
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url(../fonts/OpenSans-Bold.woff)
-    format("woff");
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.woff") format('woff');
   font-display: swap;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold.woff")
-    format("woff");
+  src: url("../fonts/OpenSans-Bold.woff") format('woff');
   font-display: swap;
   font-style: normal;
   font-weight: 700;
@@ -199,9 +197,13 @@ h5 {
  }
 }
 
-@media (max-width: 768px) { 
+@media (min-width: 768px) and (max-width: 1199px) {
 .header-nav {
   display: none;
+}
+button {
+  display: flex;
+  align-self: flex-end;
 }
 }
 
@@ -646,7 +648,7 @@ display: flex;
 
 
 .content {
-  font-family: "OpenSans-Reular", sans-serif;
+  font-family: "OpenSans-Regular", sans-serif;
   min-width: 778px;
   margin-bottom: 65px;
   margin-right: 120px;
@@ -713,18 +715,13 @@ img {
   margin-bottom: 45px;
 }
 
-.date {
-  font-size: 12px;
-  font-weight: 400;
-  color: #888888;
-  margin-right: 12px;
-}
 
 .author {
   font-family: "OpenSans-Bold", sans-serif;
   font-size: 12px;
   font-weight: 700;
   color: #000;
+  margin-left: 12px;
 }
 
 .blocks-content-text {
@@ -891,11 +888,11 @@ padding-bottom: 35px;
   margin-left: 19px;
 }
 
-.date-news {
+time {
   font-size: 12px;
   font-weight: 400;
   color: #888888;
-  vertical-align: top;
+  font-family: "OpenSans-Bold",
 }
 
 .posts-text {
@@ -1286,6 +1283,7 @@ margin-bottom: 50px;
 
 .product-description {
   font-size: 15px;
+  line-height: 22px;
   padding-bottom: 25px;
 }
 
